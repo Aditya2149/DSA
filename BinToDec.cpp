@@ -8,14 +8,10 @@ int main(){
     int ans=0;
     int i=0;
     while (n!=0){
-        if(n&1){
-            ans = pow(2,i)+ ans;
-            cout<<ans<<endl;
+        if(n%10==1){
+            ans += pow(2,i) ;
         }
-        // int bit = n&1;
-        // ans = (bit*pow(10,i)) + ans; 
-        n = n>>1;
-        cout<<n<<endl;
+        n = n/10;
         i++;
     }
     cout<<ans<<endl;
