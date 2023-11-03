@@ -17,7 +17,7 @@ int sort(int arr[],int size){
     return 0;
 }
 int main(){
-    int arr[] = {0,1,0,1,1,0};
+    int arr[] = {0,1,0,1,0,0,0,1};
     int size = sizeof(arr)/sizeof(arr[0]);
     sort(arr,size);
     for(int i=0;i<size;i++)
