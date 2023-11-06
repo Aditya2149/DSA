@@ -56,5 +56,6 @@ int main(){
 
     cout<<"First Position of 3 in even array: "<<FirstOccr(occr,6,3)<<endl;
     cout<<"Last Position of 3 in even array: "<<LastOccr(occr,6,3)<<endl;
+    cout<<"Number of occurences: "<<LastOccr(occr,6,3)-FirstOccr(occr,6,3)+1<<endl;
     return 0;
 }
